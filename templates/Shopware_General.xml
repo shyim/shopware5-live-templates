@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="Shopware-FroshProfiler">
-    <template name="sqlformat" value="$params = array_map(function ($data) {&#10;    return Shopware()->Db()->quote($data);&#10;}, $QUERY$->getParameters());&#10;echo \SqlFormatter::format(str_replace(array_keys($params), array_values($params), $QUERY$->getSQL()));&#10;die();&#10;" description="Show Formatted Dbal Query" toReformat="false" toShortenFQNames="true">
-        <variable name="QUERY" expression="" defaultValue="$query" alwaysStopAt="true" />
+<templateSet group="Shopware-General">
+    <template name="debug" value="echo '<pre>';&#10;echo '$FILE$:$LINE$' . PHP_EOL;&#10;\Doctrine\Common\Util\Debug::dump($VAR$);&#10;echo '</pre>';&#10;die();" description="Debug using Doctrine Util" toReformat="false" toShortenFQNames="true">
+        <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+        <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+        <variable name="VAR" expression="complete()" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="PHP" value="true" />
             <option name="HTML_TEXT" value="false" />
@@ -22,8 +24,10 @@
             <option name="OTHER" value="false" />
         </context>
     </template>
-    <template name="dd" value="dd($VAR$);" description="Dump Variable" toReformat="false" toShortenFQNames="true">
-        <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <template name="debugevent" value="echo '<pre>';&#10;echo '$FILE$:$LINE$' . PHP_EOL;&#10;\Doctrine\Common\Util\Debug::dump(Shopware()->Events()->getListeners('$EVENT$'));&#10;echo '</pre>';&#10;die();" description="Debug Event Listener" toReformat="false" toShortenFQNames="true">
+        <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+        <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+        <variable name="EVENT" expression="complete()" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="PHP" value="true" />
             <option name="HTML_TEXT" value="false" />

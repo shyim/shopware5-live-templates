@@ -14,6 +14,8 @@ How to:
 ## Live Template Groups
 
 - [FroshProfiler Specific](#FroshProfiler)
+- [General](#General)
+- [Smarty](#Smarty)
 
 
 ### FroshProfiler ###
@@ -23,6 +25,21 @@ How to:
 * dd
     * Dump and Die using the Symfony VarDumper
 
+### General ###
+
+* debug
+    * Dump variables using Doctrine Util Debug
+* debugevent
+    * Dump event listeners by event name
+
+### Smarty ###
+
+* block
+    * Create a new block
+* extends
+    * Extends from a file
+* include
+    * Include a file
 
 # Contribute
 

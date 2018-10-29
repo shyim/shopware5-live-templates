@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Shopware-Smarty">
+    <template name="block" value="{block name=&quot;$NAME$&quot;}&#10;{/block}" description="Create a new block" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+            <option name="PHP" value="false" />
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="SQL" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+        </context>
+    </template>
+    <template name="extends" value="{extends file=&quot;parent:$FILE$&quot;}" description="Extends a file" toReformat="false" toShortenFQNames="true">
+        <variable name="FILE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+            <option name="PHP" value="false" />
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="SQL" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+        </context>
+    </template>
+    <template name="include" value="{include file=&quot;$FILE$&quot;}" description="Include a file" toReformat="false" toShortenFQNames="true">
+        <variable name="FILE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+            <option name="PHP" value="false" />
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="SQL" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+        </context>
+    </template>
+    <template name="s" value="{s name=&quot;$NAME$&quot;}$END${/s}" description="Create a snippet" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="OTHER" value="true" />
+            <option name="PHP" value="false" />
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="SQL" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+        </context>
+    </template>
+</templateSet>
