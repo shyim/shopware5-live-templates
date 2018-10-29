@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Shopware-FroshProfiler">
+    <template name="sqlformat" value="$params = array_map(function ($data) {&#10;return Shopware()->Db()->quote($data);&#10;}, $QUERY$->getParameters());&#10;echo \SqlFormatter::format(str_replace(array_keys($params), array_values($params), $QUERY->getSQL()));&#10;die();&#10;" description="Show Formatted Dbal Query" toReformat="false" toShortenFQNames="true">
+        <variable name="QUERY" expression="" defaultValue="$query" alwaysStopAt="true" />
+        <context>
+            <option name="PHP" value="true" />
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="SQL" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="dd" value="dd($VAR$);" description="Dump Variable" toReformat="false" toShortenFQNames="true">
+        <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="PHP" value="true" />
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="SQL" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+</templateSet>
