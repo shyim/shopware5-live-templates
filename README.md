@@ -10,6 +10,8 @@ How to:
 
 4) To see all templates, go to *Preferences | Live Templates* and expand the Template Group.
 
+![Settings-Window](https://i.imgur.com/R6gSpf9.png)
+
 
 ## Live Template Groups
 
@@ -40,6 +42,24 @@ How to:
     * Extends from a file
 * include
     * Include a file
+* s
+    * Create a snippet
+* dynamics
+    * Create a dynamic snippet
+* currency
+    * Output and format a variable to currency
+* each
+    * Create a foreach
+* if
+    * Create a if statement
+* loop
+    * Create a for loop
+* url
+    * Link to a controller / action
+* action
+    * Include a controller / action
+* debug
+    * Open debug window
 
 # Contribute
 
