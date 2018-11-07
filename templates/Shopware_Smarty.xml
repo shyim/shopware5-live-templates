@@ -4,9 +4,9 @@
         <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -26,9 +26,9 @@
         <variable name="FILE" expression="complete()" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -48,9 +48,9 @@
         <variable name="FILE" expression="complete()" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -70,9 +70,9 @@
         <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -94,9 +94,9 @@
         <variable name="NAMESPACE" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -116,9 +116,9 @@
         <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -139,9 +139,9 @@
         <variable name="ITEM" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -161,9 +161,9 @@
         <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -185,9 +185,9 @@
         <variable name="MAX" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -208,9 +208,9 @@
         <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -231,9 +231,9 @@
         <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
@@ -253,9 +253,9 @@
         <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="OTHER" value="true" />
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
             <option name="PHP" value="false" />
-            <option name="HTML_TEXT" value="false" />
-            <option name="HTML" value="false" />
             <option name="XSL_TEXT" value="false" />
             <option name="XML" value="false" />
             <option name="SQL" value="false" />
