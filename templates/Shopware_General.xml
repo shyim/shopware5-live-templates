@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Shopware-General">
-    <template name="debug" value="echo '<pre>';&#10;echo '$FILE$:$LINE$' . PHP_EOL;&#10;\Doctrine\Common\Util\Debug::dump($VAR$);&#10;echo '</pre>';&#10;die();" description="Debug using Doctrine Util" toReformat="false" toShortenFQNames="true">
+    <template name="debug" value="echo '&#60;pre&#62;';&#10;echo '$FILE$:$LINE$' . PHP_EOL;&#10;\Doctrine\Common\Util\Debug::dump($VAR$);&#10;echo '&#60;/pre&#62;';&#10;die();" description="Debug using Doctrine Util" toReformat="false" toShortenFQNames="true">
         <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
         <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
         <variable name="VAR" expression="complete()" defaultValue="" alwaysStopAt="true" />
@@ -24,7 +24,7 @@
             <option name="OTHER" value="false" />
         </context>
     </template>
-    <template name="debugevent" value="echo '<pre>';&#10;echo '$FILE$:$LINE$' . PHP_EOL;&#10;\Doctrine\Common\Util\Debug::dump(Shopware()->Events()->getListeners('$EVENT$'));&#10;echo '</pre>';&#10;die();" description="Debug Event Listener" toReformat="false" toShortenFQNames="true">
+    <template name="debugevent" value="echo '&#60;pre&#62;';&#10;echo '$FILE$:$LINE$' . PHP_EOL;&#10;\Doctrine\Common\Util\Debug::dump(Shopware()->Events()->getListeners('$EVENT$'));&#10;echo '&#60;/pre&#62;';&#10;die();" description="Debug Event Listener" toReformat="false" toShortenFQNames="true">
         <variable name="FILE" expression="fileName()" defaultValue="" alwaysStopAt="false" />
         <variable name="LINE" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
         <variable name="EVENT" expression="complete()" defaultValue="" alwaysStopAt="true" />
