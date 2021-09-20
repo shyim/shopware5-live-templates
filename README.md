@@ -1,4 +1,4 @@
-# Shopware Live Templates for PhpStorm
+# Shopware 5 Live Templates for PhpStorm
 
 How to:
 
