@@ -4,7 +4,7 @@ How to:
 
 1) Go to *Preferences | Tools | Settings Repository*
 
-2) Add Read-only Source https://github.com/shyim/shopware-live-templates
+2) Add Read-only Source https://github.com/shyim/shopware5-live-templates
 
 3) Restart PhpStorm.
 
